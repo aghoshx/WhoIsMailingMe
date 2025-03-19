@@ -111,9 +111,7 @@ By default, no. The WP Mail integration is disabled by default, and even when en
 
 Need help? We're here for you!
 
-- **Documentation**: [View the full documentation](https://example.com/docs)
 - **Email Support**: [hello+whoismailingme@matsio.com](mailto:hello+whoismailingme@matsio.com)
-- **Bug Reports**: [Submit an issue](https://github.com/aghoshx/whoismailingme/issues)
 
 ## 🤝 Contributing
 
