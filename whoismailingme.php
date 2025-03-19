@@ -48,7 +48,7 @@ function whoismailingme_activate() {
     // Add default settings if they don't exist
     if (!get_option('whoismailingme_settings')) {
         $default_settings = array(
-            'signature_text' => sprintf('-- Message sent from %s', get_bloginfo('name')),
+            'signature_text' => sprintf('<br/>-- Message sent from %s', get_bloginfo('name')),
             'include_url' => 'yes',
             'include_date' => 'no',
             'enable_gravity_forms' => 'yes',
