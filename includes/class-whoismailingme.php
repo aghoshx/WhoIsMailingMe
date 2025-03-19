@@ -13,7 +13,8 @@ if (!defined('ABSPATH')) {
 /**
  * Main WhoIsMailingMe Plugin Class
  */
-class WhoIsMailingMe {
+class WhoIsMailingMe
+{
 
     /**
      * Singleton instance
@@ -35,7 +36,7 @@ class WhoIsMailingMe {
      * @var WhoIsMailingMe_Admin
      */
     private $admin;
-    
+
     /**
      * Mail instance
      * 
@@ -64,7 +65,7 @@ class WhoIsMailingMe {
 
         // Initialize settings
         $this->init_settings();
-        
+
         // Initialize classes
         $this->init_classes();
     }
@@ -81,7 +82,7 @@ class WhoIsMailingMe {
      */
     private function init_settings() {
         $default_settings = array(
-            'signature_text' => sprintf(__('-- \nMessage sent from %s', 'whoismailingme'), get_bloginfo('name')),
+            'signature_text' => sprintf(__('-- Message sent from %s', 'whoismailingme'), get_bloginfo('name')),
             'include_url' => 'yes',
             'include_date' => 'no',
             'enable_gravity_forms' => 'yes',
@@ -93,7 +94,7 @@ class WhoIsMailingMe {
 
         $this->settings = get_option('whoismailingme_settings', $default_settings);
     }
-    
+
     /**
      * Initialize admin and mail classes
      */
@@ -101,12 +102,12 @@ class WhoIsMailingMe {
         // Include required files
         require_once WIMM_PLUGIN_DIR . 'includes/class-whoismailingme-admin.php';
         require_once WIMM_PLUGIN_DIR . 'includes/class-whoismailingme-mail.php';
-        
+
         // Initialize Admin class if we're in admin area
         if (is_admin()) {
             $this->admin = new WhoIsMailingMe_Admin($this->settings);
         }
-        
+
         // Initialize Mail class
         $this->mail = new WhoIsMailingMe_Mail($this->settings);
     }

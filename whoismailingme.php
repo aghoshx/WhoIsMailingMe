@@ -48,7 +48,7 @@ function whoismailingme_activate() {
     // Add default settings if they don't exist
     if (!get_option('whoismailingme_settings')) {
         $default_settings = array(
-            'signature_text' => sprintf('-- \nMessage sent from %s', get_bloginfo('name')),
+            'signature_text' => sprintf('-- Message sent from %s', get_bloginfo('name')),
             'include_url' => 'yes',
             'include_date' => 'no',
             'enable_gravity_forms' => 'yes',
@@ -75,12 +75,12 @@ function whoismailingme_activation_redirect() {
     if (get_transient('whoismailingme_activation_redirect')) {
         // Delete the transient
         delete_transient('whoismailingme_activation_redirect');
-        
+
         // Make sure it's the correct page
         if (isset($_GET['activate-multi']) || !current_user_can('manage_options')) {
             return;
         }
-        
+
         // Redirect to settings page
         wp_safe_redirect(admin_url('options-general.php?page=whoismailingme'));
         exit;

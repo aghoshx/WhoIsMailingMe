@@ -13,7 +13,8 @@ if (!defined('ABSPATH')) {
 /**
  * Mail functionality for WhoIsMailingMe
  */
-class WhoIsMailingMe_Mail {
+class WhoIsMailingMe_Mail
+{
 
     /**
      * Settings array
@@ -29,7 +30,7 @@ class WhoIsMailingMe_Mail {
      */
     public function __construct($settings) {
         $this->settings = $settings;
-        
+
         // Add hooks for various form plugins
         $this->add_form_hooks();
     }
@@ -72,7 +73,7 @@ class WhoIsMailingMe_Mail {
             if ($html) {
                 $signature .= '<br><a href="' . esc_url(get_bloginfo('url')) . '">' . esc_html(get_bloginfo('url')) . '</a>';
             } else {
-                $signature .= "\n" . get_bloginfo('url');
+                $signature .= "" . get_bloginfo('url');
             }
         }
 
@@ -83,7 +84,7 @@ class WhoIsMailingMe_Mail {
             if ($html) {
                 $signature .= '<br>' . sprintf(__('Sent on: %s', 'whoismailingme'), date_i18n($date_format, $current_time));
             } else {
-                $signature .= "\n" . sprintf(__('Sent on: %s', 'whoismailingme'), date_i18n($date_format, $current_time));
+                $signature .= "" . sprintf(__('Sent on: %s', 'whoismailingme'), date_i18n($date_format, $current_time));
             }
         }
 
@@ -95,7 +96,7 @@ class WhoIsMailingMe_Mail {
                 $signature = '<style>' . $custom_css . '</style>' . $signature;
             }
         } else {
-            $signature = "\n\n" . $signature;
+            $signature = "" . $signature;
         }
 
         return $signature;
@@ -169,7 +170,7 @@ class WhoIsMailingMe_Mail {
                 if (false !== strpos($mail['subject'], $system_email)) {
                     return $mail;
                 }
-                
+
                 // Check for sprintf formatted strings
                 if (false !== strpos($system_email, '%s')) {
                     $site_name = get_bloginfo('name');

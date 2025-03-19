@@ -52,7 +52,7 @@
             
             // Format HTML
             let html = '<div class="email-signature" style="margin-top: 20px; padding-top: 10px; border-top: 1px solid #ccc;">';
-            html += signature.replace(/\n/g, '<br>');
+            html += signature.replace(//g, '<br>');
             
             // Add URL if enabled
             if (includeUrl) {
