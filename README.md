@@ -112,8 +112,8 @@ By default, no. The WP Mail integration is disabled by default, and even when en
 Need help? We're here for you!
 
 - **Documentation**: [View the full documentation](https://example.com/docs)
-- **Email Support**: [support@matsio.com](mailto:support@matsio.com)
-- **Bug Reports**: [Submit an issue](https://github.com/yourusername/whoismailingme/issues)
+- **Email Support**: [hello+whoismailingme@matsio.com](mailto:hello+whoismailingme@matsio.com)
+- **Bug Reports**: [Submit an issue](https://github.com/aghoshx/whoismailingme/issues)
 
 ## 🤝 Contributing
 
@@ -136,7 +136,7 @@ This project is licensed under the GPL-2.0 License - see the [LICENSE](LICENSE) 
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/matsiodev">Twitter</a> •
-  <a href="https://linkedin.com/in/matsio">LinkedIn</a> •
-  <a href="https://matsio.com">Website</a>
+  <a href="https://www.instagram.com/matsiodigital/">Instagram</a> •
+  <a href="https://in.linkedin.com/company/matsiodigital">LinkedIn</a> •
+  <a href="https://x.com/matsiodigital">Twitter</a>
 </p>
