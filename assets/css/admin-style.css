@@ -1,0 +1,82 @@
+/**
+ * WhoIsMailingMe Admin Stylesheet
+ */
+
+.whoismailingme-settings-wrap {
+    max-width: 900px;
+}
+
+.whoismailingme-settings-wrap .form-table th {
+    min-width: 200px;
+}
+
+.whoismailingme-settings-wrap .form-table td {
+    padding: 20px 10px;
+}
+
+.whoismailingme-settings-wrap .description {
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+}
+
+.whoismailingme-settings-wrap textarea {
+    width: 100%;
+}
+
+.whoismailingme-settings-wrap .custom-css {
+    font-family: monospace;
+    height: 150px;
+}
+
+.whoismailingme-header {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border-left: 4px solid #46b450;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.whoismailingme-header h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.whoismailingme-support {
+    margin-top: 30px;
+    background: #fff;
+    padding: 15px;
+    border-left: 4px solid #00a0d2;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.whoismailingme-support h3 {
+    margin-top: 0;
+}
+
+.whoismailingme-preview {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.whoismailingme-preview-header {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.whoismailingme-preview-content {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .whoismailingme-settings-wrap .form-table th {
+        min-width: 0;
+    }
+}

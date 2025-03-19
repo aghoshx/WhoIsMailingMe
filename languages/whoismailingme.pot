@@ -1,0 +1,35 @@
+# Copyright (C) 2025 Matsio
+# This file is distributed under the same license as the WhoIsMailingMe plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WhoIsMailingMe 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/whoismailingme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-19T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.0\n"
+"X-Domain: whoismailingme\n"
+
+#. Plugin Name of the plugin
+msgid "WhoIsMailingMe"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://lawpunditsglobal.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Activating this plugin will add an email signature at the end of every email to notify which website sent that particular form."
+msgstr ""
+
+#. Author of the plugin
+msgid "Matsio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://matsio.com"
+msgstr ""
