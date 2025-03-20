@@ -40,13 +40,6 @@ Managing several websites often leads to uncertainty about the origin of contact
 
 ## 📥 Installation
 
-### Automatic Installation (Recommended)
-
-1. In your WordPress admin, go to **Plugins > Add New**
-2. Search for "WhoIsMailingMe"
-3. Click "Install Now" and then "Activate"
-4. You'll be automatically redirected to the settings page
-
 ### Manual Installation
 
 1. Download the plugin ZIP file
@@ -58,10 +51,6 @@ Managing several websites often leads to uncertainty about the origin of contact
 
 ### General Settings
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x350/ffffff/45aaf2?text=General+Settings+Screenshot" alt="General Settings">
-</p>
-
 - **Signature Text**: Customize your signature text with support for the following placeholders:
   - `{site_name}` - Your website name
   - `{site_url}` - Your website URL
@@ -71,35 +60,10 @@ Managing several websites often leads to uncertainty about the origin of contact
 
 ### Form Support
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x350/ffffff/45aaf2?text=Form+Support+Screenshot" alt="Form Support">
-</p>
-
 - **Gravity Forms**: Enable signatures for all Gravity Forms notifications
 - **Contact Form 7**: Add signatures to Contact Form 7 emails
 - **WordPress Mail**: Optionally add signatures to all WordPress emails (use with caution)
-
-### Advanced Settings
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x350/ffffff/45aaf2?text=Advanced+Settings+Screenshot" alt="Advanced Settings">
-</p>
-
 - **Custom CSS**: Add your own CSS to style HTML email signatures
-
-## 📸 Screenshots
-
-### Email Signature Example
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x350/ffffff/45aaf2?text=Email+Signature+Example" alt="Email Signature Example">
-</p>
-
-### Settings Page
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x350/ffffff/45aaf2?text=Settings+Page" alt="Settings Page">
-</p>
 
 ## ❓ Frequently Asked Questions
 
